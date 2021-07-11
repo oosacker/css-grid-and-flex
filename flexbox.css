@@ -1,0 +1,26 @@
+.outer {
+  display: flex;
+  border: 2px solid blue;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.inner {
+  border: 1px solid red;
+  height: 200px;
+  width: 100px;
+}
+
+/* .one {
+  flex: 1 1 33%;
+}
+
+.two {
+  flex: 2 2 33%;
+}
+
+.three {
+  flex: 1 1 33%;
+} */

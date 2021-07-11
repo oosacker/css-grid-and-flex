@@ -1,0 +1,28 @@
+.outer {
+  display: grid;
+  border: 2px solid blue;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  height: 500px;
+}
+
+.inner {
+  border: 1px solid red;
+  height: 200px;
+  width: 100px;
+}
+
+.one {
+
+}
+
+.two {
+
+}
+
+.three {
+
+}
